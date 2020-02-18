@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>
+My_WebPage
+</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+	#j1{
+	background-color:MediumSeaGreen;
+	font-family:Verdhana;
+	font-size:20;
+	text-align:right-side;
+	padding-bottom:70px;
+	}
+  </style>
+</head>
+<body style="background-color:MediumSeaGreen; padding-bottom:100px;">
+<div id="j1">
+<h1><strong>RunAny_OS<strong></h1>
+</div>
+	<div class="container">
+		<div class="row jumbotron text-center">
+			<h1><b style="color:Violet;">This website gives you better Experience to run any OS for testing purpose without configuring or Installing Machine</b></h1>
+		</div>
+		<div class="text-center">
+				<label style="margin-right:13%;">Choose any OS</label>
+				<form action="server.php" method="Post">
+					<select id="kl" name='select1'>
+						<!option value="">Choose Any OS</option>
+						<option value="mac">Mac OS</option>
+						<option value="window">Window OS</option>
+						<option value="centos">Centos OS</option>
+						<option value="redhat">Redhat OS</option>
+						<option value="ubuntu">Ubuntu OS</option>
+					</select>
+				    <input type="submit" value="Submit" name="submit"/>
+				</form>
+		</div>
+	</div>
+</body>
+</html>
